@@ -7,22 +7,25 @@
     justify-content: space-between;
     height: 50vh;
     width: 100%;
-    margin-top: -80px;
+    margin-top: -170px;
 }
 .container1{
     display: flex;
     flex-direction: column;
-    padding: 0px 100px;
+    padding: 0px 72px;
     height: 100%;
     justify-content: center;
     overflow: hidden;
+    position: relative;
+    top: 40px;
 
 }
 .txt-line{
     overflow: hidden;
 }
 .txt-line p{
-    font-size: 140px;
+    font-size: 172px;
+    color: black;
     text-transform: capitalize;
     letter-spacing: -10px;
     font-family: 'Ogg';
@@ -31,7 +34,7 @@
     line-height: 90%;
 }
 .line-bottom{
-    margin-top: -130px;
+    margin-top: -391px;
 }
 .right-side-menu{
     position: absolute;
@@ -50,12 +53,14 @@
     margin-left: 120px;
 }
 .left-side-quote p{
-    color: black;
+    color:#fff;
     font-size: 15px;
     font-family: 'Inter';
     word-spacing: 10px;
     text-transform: uppercase;
     font-weight: 300;
+    position: relative;
+    transform: translate(-49px ,0px);
 
 }
 .flower-svg{
@@ -75,26 +80,29 @@
     flex-direction: column;
 }
 .main-h1-short-about{
-    margin-top: 100px;
+    margin-top: 0px;
 }
 .sub-main-p-short-about{
     margin-top: 120px;
 }
 .short-about h1{
-    font-size: 150px;
+    font-size: 130px;
     font-weight: 500;
     font-family: 'Ogg';
     margin-bottom: -150px;
     letter-spacing: -2px;
     text-align: center;
+    color: black;
+    word-spacing: 10px;
 }
 .short-about p{
     text-align: center;
-    color: #642420;
+    color: #fff;
     font-family: 'Inter';
-    font-weight: 500;
-    font-size: 18px;
-    margin-top: 20px;
+    font-weight: 300;
+    font-size: 15px;
+    word-spacing: 10px;
+    margin-top: 30px;
 }
 .another-svg{
     margin-top: 50px;
@@ -136,16 +144,16 @@
     }
 }
 .reel-item{
-    font-weight: 400;
-    font-family: 'Ogg';
-    font-size: 180px;
+    font-family: 'Inter';
+    font-size: 25px;
+    color: #fff;
+    margin-left: 60px;
     text-transform: uppercase;
 }
 .skill-set-boxes{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 100px;
     width: 100%;
     height: fit-content;
     flex-wrap: wrap;
@@ -183,7 +191,8 @@
 }
 .skill-set-box p{
     margin-top: 20px;
-    font-size: 13px;
+    font-size: 15px;
+    font-weight: 200;
 }
 .project-and-work{
     display: flex;
@@ -191,86 +200,85 @@
     justify-content: center;
     width: 80%;
     margin-left: 10%;
-    margin-top: 100px;
+    margin-top: 250px;
     margin-bottom: 100px;
     flex-direction: column;
     height: 30vh;
-    padding-bottom: 100px;
-    border-bottom: 1px dashed black;
+    /* border-bottom: 1px solid #fff; */
+}
+
+.line{
+    text-align: center;
+    width: 500px;
+    background-color: #fff;
 }
 .project-and-work h1 .h1-project{
     text-decoration: none;
-    color: black;
-    font-size: 100px;
+    color:black;
+    font-size: 130px;
     font-weight: lighter;
     font-family: 'Ogg';
-    text-decoration: .5px line-through;
+    white-space: nowrap;
 
 }
 .project-and-work p{
-    color: black;
+    color:#fff;
     font-size: 20px;
     margin-top: -20px;
     font-weight: lighter;
     font-family: 'Inter';
 }
 .h1-project img{
-    width: 90px;
+    width: 58px;
 }
 
-@media(max-width:1200px){
+.h1-project img:hover{
+    fill: #fff;
+    
+}
+
+
+@media (max-width: 1200px) {
     .txt-line p{
         font-size: 100px;
         letter-spacing: -5px;
         font-weight: 500;
     }
-
     .line-bottom{
-        margin-top: 200px;
+        margin-top: -200px;
     }
     .flower-svg{
         display: none;
     }
-
     .short-about h1{
         font-size: 100px;
         margin: 0;
         line-height: 88%;
     }
-
     .short-about p{
         margin-top: 5px;
         font-weight: 300;
     }
-
-    .sub-main-p-short-about{
+    .sub-main-p-short-about {
         margin-top: 10px;
     }
-
     .reel-item{
         font-size: 100px;
     }
-
-    .project-and-work h1, .h1-project{
+    .project-and-work h1 .h1-project{
         font-size: 50px;
     }
-
     .project-and-work h1 .h1-project img{
         width: 30px;
     }
-
     .project-and-work p{
         margin-top: -30px;
     }
-
     .skill-set-box{
-        margin:10px 5px ;
+        margin: 10px 5px;
     }
-
-
 }
-
-@media(max-width:600px){
+@media (max-width: 600px) {
     .short-about p{
         font-size: 12px;
         margin-left: 10px;
@@ -281,25 +289,20 @@
         font-size: 60px;
         letter-spacing: -2px;
         font-weight: 500;
-        
     }
-
     .line-bottom{
         margin-top: -120px;
     }
-
+    
     .left-side-quote{
         margin-left: 10vw;
     }
-
     .left-side-quote p{
         font-size: 12px;
     }
-
     .container1{
         padding: 0px 50px;
     }
-
     .short-about h1{
         font-size: 60px;
         margin: 0;
