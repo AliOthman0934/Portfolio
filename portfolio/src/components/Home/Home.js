@@ -6,6 +6,7 @@ import another from '../../Assets/another.svg'
 import arrow from '../../Assets/arrow.svg'
 import { Link } from 'react-router-dom';
 import GetInTouch from '../GetInTouch/GetInTouch';
+import Footer from "../Footer/Footer"
 import gsap from 'gsap';
 function Home() {
     let text1 = useRef(null)
@@ -190,6 +191,7 @@ function Home() {
                 
             </div>
             <GetInTouch/>
+            <Footer/>
         </div>
         </div>
     )
