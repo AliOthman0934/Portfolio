@@ -5,6 +5,7 @@ import Header from '../Header/Header'
 import './About.css'
 import gsap from 'gsap'
 import flower from '../../Assets/svgviewer-output.svg'
+import Resume from '../Resume/Resume'
 function About() {
     let text1 = useRef(null)
     let text2 = useRef(null)
@@ -76,6 +77,7 @@ function About() {
                     
 
                     <div className="about-container2-p">
+                        <Resume/>
                     </div>
                     <div className="about-container-my-strength">
                         <div className="about-text-lower">

@@ -5,8 +5,15 @@ function GetInTouch() {
     return (
         <div>
         <div className="get-in-touch">
-            <h1>Get In Touch!</h1>
-            <p>If you have any general project or enquiry feel free and contact us - available now!</p>
+            <a href="mailto: alioth840@gmail.com"><h1>Get In Touch!</h1></a>
+            <p>Let's share ideas and discuss future projects over a cup of coffee. I’d love to hear from you!
+
+
+
+
+
+
+</p>
             <img src={flower2} alt="" />
         </div>
         </div>

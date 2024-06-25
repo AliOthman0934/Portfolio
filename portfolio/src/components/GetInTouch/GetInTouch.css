@@ -16,6 +16,11 @@
     z-index: 1;
     letter-spacing: -10px;
 }
+
+.get-in-touch a{
+    text-decoration: none;
+
+}
 .get-in-touch p{
     font-size: 15px;
     margin-top: -130px;
@@ -41,37 +46,57 @@
     }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
     .get-in-touch h1{
-        font-size: 70px;
+        font-size: 120px;
     }
     .get-in-touch img{
-        width: 200px;
-        margin-top: -100px;
+        width: 600px;
+        margin-top: -393px;
         opacity: .1;
     }
     .get-in-touch p{
-        font-size: 10px;
+        font-size: 20px;
         font-weight: 400;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 100px;
+        margin-right: 100px;
         text-align: center;
         font-family: 'Inter';
+        margin-top: -100px;
     }
 
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .get-in-touch h1 {
-        font-size: 50px;
+        font-size: 57px;
+        letter-spacing: -2px;
     }
     .get-in-touch p{
         font-size: 10px;
         font-weight: 500;
+        position: relative;
+        top: 85px;
+        padding: 0px 20px;
     }
     .get-in-touch img{
-        margin-top: -90px;
+        margin-top: -96px;
     }
     .get-in-touch{
         height: 400px;
+        margin-top: 0px;
+    }
+}
+
+@media (width:768px){
+    .get-in-touch h1 {
+        font-size: 105px;
+    }
+
+    .get-in-touch p{
+        font-size: 15px;
+        font-weight: 500;
+        position: relative;
+        top: 52px;
+        padding: 0px 50px;
     }
 }

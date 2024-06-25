@@ -1,17 +1,18 @@
 import React, {useRef , useEffect} from 'react';
 import './App.css';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
-import Home from '../src/components/Home/Home';
-import About from '../src/components/About/About';
-import Projects from '../src/components/Projects/Projects';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import Home from './Components/Home/Home';
+import About from './Components/About/About'
+import Projects from './Components/Projects/Projects'
+import Contact from './Components/Contact/Contact'
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
 import gsap from 'gsap';
-
 function App() {
-  let cursor = useRef(null);
-  let posX1 = useRef(0);
-  let posY1 = useRef(0);
-  let mouseX1 = useRef(0);
-  let mouseY1 = useRef(0);
+  let cursor = useRef(null)
+  let posX1 = useRef(null)
+  let posY1 = useRef(null)
+  let mouseX1 = useRef(null)
+  let mouseY1 = useRef(null)
 
   let tl = gsap.timeline();
   let tl2 = gsap.timeline();
@@ -21,50 +22,50 @@ function App() {
     let posY = posY1.current;
     let mouseX = mouseX1.current;
     let mouseY = mouseY1.current;
-    tl.to({}, 0.016, {
+    tl.to({} , 0.016, {
       repeat: -1,
-      onRepeat: function() {
+      onRepeat: function(){
         posX += (mouseX - posX) / 10;
         posY += (mouseY - posY) / 10;
-        tl.set(cursor.current, {
+        tl.set(cursor, {
           css: {
             left: posX - 50,
             top: posY - 50,
           },
         });
       }
-    });
-    document.addEventListener("mousemove", function(e) {
+    })
+    document.addEventListener("mousemove", function(e){
       mouseX = e.pageX;
       mouseY = e.pageY;
-    });
-    tl2.from(cursor.current, {
+    })
+    tl2.from(cursor, {
       duration: 1.5,
       delay: 2,
       opacity: 0
-    }, "-=1");
-  }, [tl, tl2]);
+    }, "-=1")
+  })
 
   const load = gsap.timeline({
-    paused: true,
+    paused: "true",
   });
-  let loader = useRef(null);
-  let progress = useRef(null);
-  let percent = useRef(null);
-  let bar = useRef(null);
-  let barc = useRef(null);
+  let loader = useRef(null)
+  let progress = useRef(null)
+  let percent = useRef(null)
+  let bar = useRef(null)
+  let barc = useRef(null)
 
   useEffect(() => {
-    load.to([percent.current, bar.current], {
+    load.to([percent, bar], {
       duration: 0.2,
       opacity: 0,
       zIndex: -1,
     });
-    load.to(progress.current, {
+    load.to(progress, {
       duration: 0.8,
       width: "0%",
     });
-    load.to(loader.current, {
+    load.to(loader, {
       visibility: 'hidden',
       zIndex: -1
     });
@@ -88,32 +89,40 @@ function App() {
   }
   window.addEventListener("load", (e) => {
     loading();
-  });
-
+  })
   return (
     <div>
-      <Router>
-        <div className="noise"></div>
-        <div className="App">
-          <div className="loader" ref={loader}>
-            <div className="progress" ref={progress}>
-              <div id="percent" ref={percent}>1%</div>
-              <div id="bar" ref={bar}>
-                <div id="barc" ref={barc}></div>
+    <Router>
+    <div className="noise"></div>
+    <div className="App">
+    <div class="loader" ref={(el) => (loader = el)}>
+            <div class="progress" ref={(el) => (progress = el)}>
+              <div id="percent" ref={(el) => (percent = el)}>
+                1%
+              </div>
+              <div id="bar" ref={(el) => (bar = el)}>
+                <div id="barc" ref={(el) => (barc = el)}></div>
               </div>
             </div>
           </div>
-
-          <Route path="/" exact component={Home} />
-          <Route path="/about" exact component={About} />
-          <Route path="/projects" exact component={Projects} />
-
-          <div className="cursor-follower" ref={cursor}></div>
-        </div>
-      </Router>
+    <ScrollToTop />
+      <Switch>
+        <Route path="/" exact><Home /></Route>
+      </Switch>
+      <Switch>
+        <Route path="/about" exact><About /></Route>
+      </Switch>
+      <Switch>
+        <Route path="/projects" exact><Projects /></Route>
+      </Switch>
+      <Switch>
+        <Route path="/contact" exact><Contact /></Route>
+      </Switch>
+      <div className="cursor-follower" ref={ el => cursor = el }></div>
+    </div>
+    </Router>
     </div>
   );
 }
 
 export default App;
-
