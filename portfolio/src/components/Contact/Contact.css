@@ -1,0 +1,91 @@
+.contact-page-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 173px;
+    height: fit-content;
+    flex-wrap: wrap;
+    margin-left: 65px;
+}
+.contact-page-container h1{
+    letter-spacing: -10px;
+    font-size: 172px;
+    color: black;
+    font-weight: lighter;
+    font-family: 'Ogg';
+}
+
+.contact-page-container h1 img{
+    width: 100px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    animation: animate-rotate 10s infinite linear;
+}
+
+.contact-now{
+    font-family: 'Inter';
+    margin-top: 20px;
+    font-size: 35px;
+    overflow: hidden;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 38px;
+}
+
+.contact-now ul {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    text-decoration: none;
+    list-style: none;
+}
+.contact-now ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: "Inter";
+    font-size: 25px;
+}
+@keyframes animate-rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 900px) {
+    .contact-page-container h1{
+        font-size: 100px;
+        line-height: 88%;
+    }
+
+}
+@media (max-width: 600px) {
+    .contact-page-container{
+        margin-left: 20px;
+    }
+    
+    .contact-page-container h1{
+        font-size: 70px;
+        letter-spacing: -2px;
+    }
+    .contact-page-container h1 img{
+        width: 50px;
+    }
+
+    .contact-now ul li a{
+        font-size: 20px;
+    }
+
+    .contact-now{
+        margin-left: 0px;
+    }
+}
+
+@media(width:768px){
+    .contact-page{
+        height: 100vh;
+    }
+}

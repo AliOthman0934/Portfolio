@@ -37,7 +37,7 @@
     left: 50%;
     transform: translate(-50%,-50%);
     width: 40vw;
-    background: url(../../Assets//SAM_0959.JPG) 50% 50% no-repeat;
+    background: url(../../Assets/SAM_0959.JPG) 50% 50% no-repeat;
     background-size: cover;
     filter: grayscale(1);
     height: 110vh;
@@ -96,7 +96,7 @@
     font-weight: 300;
     font-size: 15px;
     word-spacing: 10px;
-    margin-top: 30px;
+    margin-top: -127px;
 }
 .about-container2-p-right{
     text-align: right;
@@ -123,19 +123,52 @@
     }
 }
 
-@media (max-width:1000px) {
+@media (max-width:1200px) {
     .container-text{
-        font-size: 120px;
+        font-size: 150px;
+        margin-top: 0px;
     }
+
+    .container-quote{
+        position: absolute;
+        top: 30vh;
+        left: 8%;
+        font-family: 'Inter';
+        font-size: 20px;
+        color: #fff;
+        word-spacing: 10px;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+
+    .container-quote2{
+        position: absolute;
+        top: 160vh;
+        left: 10%;
+    }
+
+    .container-image{
+        width: 64vh;
+    }
+
+    .about-container-flower img{
+        position: relative;
+        top: 200px;
+    }
+
     .container-inner-text2{
-        margin-top: -300px;
+        margin-top: -369px;
     }
     .about-container2-heading p,
     .about-container2-heading2 p{
-        font-size: 140px;
+        font-size: 120px;
+    }
+
+    .about-container2-strength-p p{
+        margin-top: -455px;
     }
     .about-container-flower{
-        top: 70vh;
+        top: 13vh;
     }
     .about-container2-heading{
         margin-top: 100px;
@@ -143,31 +176,55 @@
     .about-container2-heading2 p{
         font-size: 80px;
     }
-.about-footer{
-    margin-top: 450vh;
-}
 }
 
-@media (max-width: 650px) {
+@media (max-width: 768px  ) {
     .about-container2-heading2 p, .about-container2-heading p{
-        font-size: 90px;
+        font-size: 64px;
+        letter-spacing: -2px;
+        line-height: 61px;
     }
+
+    .container-inner-text2{
+        margin-top: -180px;
+    }
+
+    .about-container2-heading{
+        margin-top: 0px;
+    }
+
+    .about-container-flower{
+        top: 515px;
+    }
+
+    .about-container-my-strength p{
+        top: 0px;
+        font-size: 60px;
+        letter-spacing: -2px;
+    }
+
+    .about-container2-strength-p p{
+        padding: 0px 20px;
+    }
+
+    .container-text p{
+        font-size: 76px;
+    }
+
     .container-quote1{
         top: 50vh;
-        
     }
-
     .container-image{
-        width: 95vw;
-
+        width: 322px;
+        height: 600px;
+        transform: translate(-50% , -50%);
     }
     .container-text{
-        margin-left: 15px;
+        margin-left: 50px;
+        margin-top: 0px;
+        letter-spacing: -5px;
     }
     .about-container2-p p{
         font-size: 15px;
-    }
-    .about-footer{
-        margin-top: 430vh;
     }
 }

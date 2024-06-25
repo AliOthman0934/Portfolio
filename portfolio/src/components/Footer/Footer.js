@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 function Footer() {
     return (
         <div>
@@ -11,6 +11,18 @@ function Footer() {
                             Please contact me in any way <br /> you like
                         </span>
                     </div>
+
+                    <div className="social-links">
+                        <div className="social-links-h">
+                            Contact
+                        </div>
+                        <div className="social-links-items">
+                            <a href="mailto:alioth840@gmail.com">Mail</a>
+                            <a href="#1">Whatsapp</a>
+                            <a href="#3">+31 6 38 97 01 70</a>
+                        </div>
+                    </div>
+                    
                     <div className="social-links">
                         <div className="social-links-h">
                             Social
@@ -20,16 +32,16 @@ function Footer() {
                             <a href="https://www.linkedin.com/in/ali-othman-1199b4251/">LinkedIn</a>
                         </div>
                     </div>
-                    <div className="social-links">
+                    {/* <div className="social-links">
                         <div className="social-links-h">
                             Contact
                         </div>
                         <div className="social-links-items">
                             <a href="mailto:alioth840@gmail.com">Mail</a>
                             <a href="#1">Whatsapp</a>
-                            <a href="#3">+31638970170</a>
+                            <a href="#3">+31 6 38 97 01 70</a>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="footer-menu social-links">
                         <div className="footer-menu-h social-links-h">
                             Menu

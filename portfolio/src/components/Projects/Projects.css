@@ -104,22 +104,32 @@
     transform: rotate(270deg);
 }
 .project-page-item-image1{
- background-image: url(../../Assets/project1.jpg);   
+ background-image: url(../../Assets/pro1_resized\ \(1\).png);
+
 }
 .project-page-item-image2{
- background-image: url(../../Assets/project2.jpg);   
+ background-image: url(../../Assets/ScreenShot_23_06_2024_16_40_03_resized.png);   
 }
 .project-page-item-image3{
- background-image: url(../../Assets/project3.jpg);   
+ background-image: url(../../Assets/pro3.jpg);   
 }
 .project-page-item-image4{
- background-image: url(../../Assets/project4.jpg);   
+ background-image: url(../../Assets/pro4_resized.jpg);   
 }
 .project-page-item-image5{
- background-image: url(../../Assets/project5.jpg);   
+ background-image: url(../../Assets/pro5.png);   
 }
 .project-page-item-image6{
- background-image: url(../../Assets/project6.jpg);   
+ background-image: url(../../Assets/pro6.jpg);   
+}
+.project-page-item-image7{
+ background-image: url(../../Assets/pro8.jpg);   
+}
+.project-page-item-image8{
+ background-image: url(../../Assets/pro10.png)   
+}
+.project-page-item-image9{
+ background-image: url(../../Assets/pro9.png);   
 }
 
 @media (max-width: 900px) {
