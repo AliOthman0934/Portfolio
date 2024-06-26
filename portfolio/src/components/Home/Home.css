@@ -131,10 +131,10 @@
     white-space: nowrap;
     width: fit-content;
     will-change: transform;
-    animation: animation-reel 60s infinite linear;
+    animation: move 6000ms linear infinite;
 }
 
-@keyframes animation-reel {
+@keyframes move {
     from{
         transform: translateX(0%);
     }
