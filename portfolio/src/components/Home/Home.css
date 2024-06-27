@@ -131,7 +131,7 @@
     white-space: nowrap;
     width: fit-content;
     will-change: transform;
-    animation: move 6000ms linear infinite;
+    animation: move 60s linear infinite;
 }
 
 @keyframes move {
