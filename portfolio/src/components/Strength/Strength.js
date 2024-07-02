@@ -1,5 +1,4 @@
 import React from 'react'
-import './Strength.css'
 function Strength() {
     return (
         <div>
