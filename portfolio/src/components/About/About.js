@@ -7,6 +7,7 @@ import gsap from 'gsap'
 import flower from '../../Assets/svgviewer-output.svg'
 import Resume from '../Resume/Resume'
 import Strength from '../Strength/Strength'
+
 function About() {
     let text1 = useRef(null)
     let text2 = useRef(null)
@@ -36,8 +37,6 @@ function About() {
         })
     })
     return (
-        <>
-            <div>
                 <div className="about">
                     <Header timeline={timeline_about} />
                     <div className="about-container">
@@ -81,20 +80,6 @@ function About() {
                         <div className="resume-container">
                             <Resume />
                         </div>
-
-                        {/* <div className="about-container-my-strength">
-                            <div className="about-text-lower">
-                                <p>My Strengths</p>
-                            </div>
-                        </div>
-                        <div className="about-container2-strength-p">
-                            <p className="about-container2-p-right">
-                                I BELIEVE THAT EVERY PROJECT THAT I DO SHOULD HAVE AN OVERVALUE.<br />I ALWAYS TRY TO FIND THE OPTIMAL SOLUTION TO THE CLIENT'S TASK.
-                            </p>
-                        </div>
-                        <div className="about-container-flower">
-                            <img src={flower} alt="" />
-                        </div> */}
                     </div>
 
                     <div className="about-footer">
@@ -103,9 +88,6 @@ function About() {
                         <Footer />
                     </div>
                 </div>
-            </div>
-
-        </>
     )
 }
 

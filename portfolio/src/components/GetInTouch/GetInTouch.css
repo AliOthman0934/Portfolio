@@ -48,21 +48,21 @@
 
 @media (max-width: 1200px) {
     .get-in-touch h1{
-        font-size: 120px;
+        font-size: 103px;
     }
     .get-in-touch img{
-        width: 600px;
-        margin-top: -393px;
+        width: 200px;
+        margin-top: -240px;
         opacity: .1;
     }
     .get-in-touch p{
-        font-size: 20px;
+        font-size: 19px;
         font-weight: 400;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
         text-align: center;
         font-family: 'Inter';
-        margin-top: -100px;
+        margin-top: -84px;
     }
 
 }
@@ -79,7 +79,7 @@
         padding: 0px 20px;
     }
     .get-in-touch img{
-        margin-top: -96px;
+        margin-top: -170px;
     }
     .get-in-touch{
         height: 400px;

@@ -154,6 +154,14 @@ justify-content: flex-start;
         display: none;
     }
     .timeline-wrapper .timeline-row{
-        margin: 10px 0;
+        margin: 32px 0;
     }
+
+	.timeline-wrapper .timeline-row section{
+		background: #fff;
+		border-radius: 5px;
+		width: 283px;
+		padding: 20px;
+		position: relative;
+	}
 }

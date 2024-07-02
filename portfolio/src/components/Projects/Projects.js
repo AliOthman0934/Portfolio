@@ -5,6 +5,7 @@ import arrow from '../../Assets/arrow.svg'
 import GetInTouch from '../GetInTouch/GetInTouch'
 import Footer from '../Footer/Footer'
 import gsap from 'gsap'
+
 function Projects() {
     const timeline_project = gsap.timeline();
     let text1 = useRef(null)
