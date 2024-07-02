@@ -79,8 +79,6 @@ header{
     .menu-items li, .li{
         color: #f0f0f0;
         font-size: 30px;
-        padding-right: 27px;
-        padding-bottom: 2px;
     }
     .li::before{
         background-color: #f0f0f0;
@@ -103,18 +101,21 @@ header{
     }
     header:hover .menu-items{
         display: block;
+        background: transparent;
+        backdrop-filter: blur(8px);
+        width: 100%;
+
+
     }
 }
 @media (max-width: 600px) {
     .menu-items{
-        top: 60px;
+        top: 80px;
         right: 25px;
     }
     .toggle-menu{
         right: 10px;
         top: 15px;
-        padding: 0px 8px;
-        padding-top: 4px;
     }
     .toggle-menu img{
         width: 37px;

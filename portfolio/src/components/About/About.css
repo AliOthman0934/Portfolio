@@ -213,7 +213,7 @@
     }
 
     .container-quote1{
-        top: 50vh;
+        top: 33vh;
     }
     .container-image{
         width: 322px;
@@ -221,7 +221,6 @@
         transform: translate(-50% , -50%);
     }
     .container-text{
-        margin-left: 50px;
         margin-top: 0px;
         letter-spacing: -5px;
     }
