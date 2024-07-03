@@ -65,33 +65,6 @@ function Home() {
                     <img src={SAM} alt="" />
                 </div> */}
             </div>
-
-            {/* <div className='main-c0ntainer-short-about'>
-                <div className="short-about">
-                <div className="main-h1-short-about">
-                    <h1 className="main-short-about">
-                        About Me!
-                    </h1>
-                    <h1 className='main-short-about'>
-                    Me
-                </h1>
-                <h1 className="main-short-about">
-                    ?
-                </h1>
-                </div>
-                <div className="sub-main-p-short-about">
-                    <p className="sub-main-short-about">
-                        I BELIEVE THAT EVERY PROJECT THAT I DO SHOULD HAVE AN OVERVALUE.<br />I ALWAYS TRY TO FIND THE OPTIMAL SOLUTION TO THE CLIENT'S TASK.
-                    </p>
-                    <p className="sub-main-short-about">
-                    I ALWAYS TRY TO FIND THE OPTIMAL SOLUTION TO THE CLIENT'S TASK.
-                </p>
-                </div>
-                <div className="another-svg">
-                    <img src={another} alt="" />
-                </div>
-            </div>
-            </div> */}
             
             <div className="my-skills-main-reel">
                 <div className="my-skills-reel" id="skill-reel">
@@ -124,68 +97,65 @@ function Home() {
                         <p className="skill-set-box-p">I mainly used to develop Website Markup</p>
                     </div>
                     <div className="skill-set-box">
-                        <h1 className="skill-set-box-h1">CSS3</h1>
+                        <h1 className="skill-set-box-h1">CSS</h1>
                         <p className="skill-set-box-p">I use this to style and bring design to browsers</p>
-
                     </div>
                     <div className="skill-set-box">
-                        <h1 className="skill-set-box-h1">javascript</h1>
-                        <p className="skill-set-box-p">With this technology i create visual effects and interaction and DOM elements</p>
-
-                    </div>
-                    <div className="skill-set-box">
-                        <h1 className="skill-set-box-h1">React.js</h1>
-                        <p className="skill-set-box-p">I loved it! I use it to create applications that have lot of reactivity</p>
-
-                    </div>
-                    <div className="skill-set-box">
-                        <h1 className="skill-set-box-h1">Greensock - GSAP</h1>
-                        <p className="skill-set-box-p">I used this as an animation library, The most loved ones!</p>
-
-                    </div>
-
-                    <div className="skill-set-box">
-                        <h1 className="skill-set-box-h1">MySQL</h1>
-                        <p className="skill-set-box-p">I used for storing, managing, and retrieving data in web applications.</p>
-
-                    </div>
-
-                    <div className="skill-set-box">
-                        <h1 className="skill-set-box-h1">MongoDB</h1>
-                        <p className="skill-set-box-p">I used for storing, retrieving, and managing structured and unstructured data.</p>
-
-                    </div>
-
-                    <div className="skill-set-box">
-                        <h1 className="skill-set-box-h1">Sass</h1>
-                        <p className="skill-set-box-p">I prefer this also instead of CSS beacouse of advance functionalities</p>
-
-                    </div>
-
-                    <div className="skill-set-box">
-                        <h1 className="skill-set-box-h1">Node.js</h1>
-                        <p className="skill-set-box-p">I use it to writing server scripting for applications</p>
-
+                        <h1 className="skill-set-box-h1"> CLI</h1>
+                        <p className="skill-set-box-p">I use this to have flexible access to system functions and software features</p>
                     </div>
 
                     <div className="skill-set-box">
                         <h1 className="skill-set-box-h1">GitHub</h1>
                         <p className="skill-set-box-p">I used for version control and collaboration in software development projects.</p>
+                    </div>
 
+                    <div className="skill-set-box">
+                        <h1 className="skill-set-box-h1">javascript</h1>
+                        <p className="skill-set-box-p">With this technology I create visual effects and interaction and DOM elements</p>
+                    </div>
+
+                    <div className="skill-set-box">
+                        <h1 className="skill-set-box-h1">React.js</h1>
+                        <p className="skill-set-box-p">I use it to create applications that have lot of reactivity</p>
+                    </div>
+
+                    <div className="skill-set-box">
+                        <h1 className="skill-set-box-h1">Greensock - GSAP</h1>
+                        <p className="skill-set-box-p">I used this as an animation library!</p>
+                    </div>
+
+                    <div className="skill-set-box">
+                        <h1 className="skill-set-box-h1">Node.js</h1>
+                        <p className="skill-set-box-p">I use it to writing server scripting for applications</p>
+                    </div>
+
+                    <div className="skill-set-box">
+                        <h1 className="skill-set-box-h1">MySQL</h1>
+                        <p className="skill-set-box-p">I used for storing, managing, and retrieving data in web applications.</p>
+                    </div>
+
+                    <div className="skill-set-box">
+                        <h1 className="skill-set-box-h1">MongoDB</h1>
+                        <p className="skill-set-box-p">I used for storing, retrieving, and managing structured and unstructured data.</p>
+                    </div>
+
+                    <div className="skill-set-box">
+                        <h1 className="skill-set-box-h1">Sass</h1>
+                        <p className="skill-set-box-p">I prefer this also instead of CSS beacouse of advance functionalities</p>
                     </div>
 
                     <div className="skill-set-box">
                         <h1 className="skill-set-box-h1">Figma</h1>
                         <p className="skill-set-box-p">Use to create  werifram for any website design</p>
-
                     </div>
 
                     <div className="skill-set-box">
                         <h1 className="skill-set-box-h1">Illustrator</h1>
                         <p className="skill-set-box-p">I use to make creative svgs and illustrations for website</p>
-
                     </div>
                 </div>
+                
                 <div className="project-and-work">
                     <h1>
                         <Link className="h1-project" to="/projects">
