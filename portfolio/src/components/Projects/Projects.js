@@ -60,7 +60,7 @@ function Projects() {
                             <div className="project-page-item-number">
                                 <p>02/06</p>
                             </div>
-                            <a href="https://curious-blancmange-710ac0.netlify.app/">
+                            <a href="https://curious-blancmange-710ac0.netlify.app/" target='blank'>
                                 <div className="project-page-item-header">
                                     <h1>Lorem, ipsum.</h1>
                                     <p>Lorem, ipsum.</p>
@@ -92,7 +92,7 @@ function Projects() {
                             <div className="project-page-item-number">
                                 <p>04/06</p>
                             </div>
-                            <a href="/">
+                            <a href="https://tiny-swan-81124f.netlify.app/" target='blank'>
                                 <div className="project-page-item-header">
                                     <h1>Lorem, ipsum.</h1>
                                     <p>Lorem, ipsum.</p>
