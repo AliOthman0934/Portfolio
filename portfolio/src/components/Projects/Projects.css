@@ -40,8 +40,6 @@
     margin-top: 40px;
 }
 .project-page-item{
-    padding: 28px;
-    width: 400px;
     transition: transform .6s cubic-bezier(.16,1,.3,1);
     color: #fff;
 }
@@ -73,15 +71,7 @@
     width: 50%;
     text-transform: uppercase;
 }
-.project-page-item-image{
-    width: 100%;
-    height: 400px;
-    background-color: #fff;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 10px;
-}
+
 .project-page-item-footer{
     display: flex;
     justify-content: space-between;
@@ -103,33 +93,10 @@
     margin-right: 5px;
     transform: rotate(270deg);
 }
-.project-page-item-image1{
- background-image: url(../../Assets/pro1_resized\ \(1\).png);
-
-}
-.project-page-item-image2{
- background-image: url(../../Assets/ScreenShot_23_06_2024_16_40_03_resized.png);   
-}
-.project-page-item-image3{
- background-image: url(../../Assets/pro3.jpg);   
-}
-.project-page-item-image4{
- background-image: url(../../Assets/pro4_resized.jpg);   
-}
-.project-page-item-image5{
- background-image: url(../../Assets/pro5.png);   
-}
-.project-page-item-image6{
- background-image: url(../../Assets/pro6.jpg);   
-}
-.project-page-item-image7{
- background-image: url(../../Assets/pro8.jpg);   
-}
-.project-page-item-image8{
- background-image: url(../../Assets/pro10.png)   
-}
-.project-page-item-image9{
- background-image: url(../../Assets/pro9.png);   
+.project-img{
+    width: 500px;
+    height: 320px;
+    object-fit: contain;
 }
 
 @media (max-width: 900px) {
@@ -162,5 +129,11 @@
         flex-wrap: wrap;
         gap: 0px 110px;
         margin-top: 40px;
+    }
+
+    .project-img{
+        width: 300px;
+        height: 200px;
+        object-fit: contain;
     }
 }

@@ -5,6 +5,13 @@ import arrow from '../../Assets/arrow.svg'
 import GetInTouch from '../GetInTouch/GetInTouch'
 import Footer from '../Footer/Footer'
 import gsap from 'gsap'
+import img1 from "../../Assets/pro1.png"
+import img2 from "../../Assets/ScreenShot_23_06_2024_17_01_56.png"
+import img3 from "../../Assets/ScreenShot_23_06_2024_16_44_28.jpg"
+import img4 from "../../Assets/ScreenShot_23_06_2024_17_07_37.jpg"
+import img5 from "../../Assets/img ge.jpg"
+import img6 from "../../Assets/shoes page.png"
+import img7 from "../../Assets/ScreenShot_23_06_2024_16_40_03.png"
 
 function Projects() {
     const timeline_project = gsap.timeline();
@@ -45,141 +52,115 @@ function Projects() {
                             </div>
                             <a href="/">
                                 <div className="project-page-item-header">
-                                    <h1>Lorem, ipsum.</h1>
-                                    <p>Lorem, ipsum.</p>
+                                    <h1>Personal portfolio</h1>
                                 </div>
                                 <div className="project-page-item-image project-page-item-image1">
-                                    </div>
+                                    <img src={img1} alt='nmj' className='project-img'></img>
+                                </div>
                                 <div className="project-page-item-footer">
-                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <a href='https://github.com/AliOthman0934/Portfolio'target='blank'>More information on GitHub</a>
                                     <img src={arrow} alt="" />
                                 </div>
                             </a>
                         </div>
                         <div className="project-page-item">
                             <div className="project-page-item-number">
-                                <p>02/06</p>
+                                <p>2024</p>
                             </div>
-                            <a href="https://curious-blancmange-710ac0.netlify.app/" target='blank'>
+                            <a href="https://c46-group-b-4e426f6bf421.herokuapp.com/" target='blank'>
                                 <div className="project-page-item-header">
-                                    <h1>Lorem, ipsum.</h1>
-                                    <p>Lorem, ipsum.</p>
+                                    <h1>HomeSwap</h1>
                                 </div>
-                                <div className="project-page-item-image project-page-item-image2"></div>
+                                <div className="project-page-item-image project-page-item-image2">
+                                    <img src={img2} alt='' className='project-img'></img>
+                                </div>
                                 <div className="project-page-item-footer">
-                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <a href='/'target='blank'>More information on GitHub</a>
                                     <img src={arrow} alt="" />
                                 </div>
                             </a>
                         </div>
                         <div className="project-page-item">
                             <div className="project-page-item-number">
-                                <p>03/06</p>
+                                <p>2024</p>
                             </div>
                             <a href="/">
                                 <div className="project-page-item-header">
-                                    <h1>Lorem, ipsum.</h1>
-                                    <p>Lorem, ipsum.</p>
+                                    <h1>BookHub</h1>
                                 </div>
-                                <div className="project-page-item-image project-page-item-image3"></div>
+                                <div className="project-page-item-image project-page-item-image3">
+                                    <img src={img3} alt='' className='project-img'></img>
+                                </div>
                                 <div className="project-page-item-footer">
-                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <a href='https://github.com/AliOthman0934/Library-Search-API'target='blank'>More information on GitHub</a>
                                     <img src={arrow} alt="" />
                                 </div>
                             </a>
                         </div>
                         <div className="project-page-item">
                             <div className="project-page-item-number">
-                                <p>04/06</p>
+                                <p>2023</p>
                             </div>
                             <a href="https://tiny-swan-81124f.netlify.app/" target='blank'>
                                 <div className="project-page-item-header">
-                                    <h1>Lorem, ipsum.</h1>
-                                    <p>Lorem, ipsum.</p>
+                                    <h1>Green Social Clup</h1>
                                 </div>
-                                <div className="project-page-item-image project-page-item-image4"></div>
+                                <div className="project-page-item-image project-page-item-image4">
+                                    <img src={img4} alt=''className='project-img'></img>
+                                </div>
                                 <div className="project-page-item-footer">
-                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <a href='https://github.com/AliOthman0934/My-green-social-club'target='blank'>More information on GitHub</a>
                                     <img src={arrow} alt="" />
                                 </div>
                             </a>
                         </div>
                         <div className="project-page-item">
                             <div className="project-page-item-number">
-                                <p>05/06</p>
+                                <p>2023</p>
                             </div>
-                            <a href="https://c46-group-b-4e426f6bf421.herokuapp.com/">
+                            <a href="https://tiny-swan-81124f.netlify.app/" target='blank'>
                                 <div className="project-page-item-header">
-                                    <h1>Lorem, ipsum.</h1>
-                                    <p>Lorem, ipsum.</p>
+                                    <h1>Image Generator</h1>
                                 </div>
-                                <div className="project-page-item-image project-page-item-image5"></div>
+                                <div className="project-page-item-image project-page-item-image5">
+                                    <img src={img5} alt='' className='project-img'></img>
+                                </div>
                                 <div className="project-page-item-footer">
-                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <a href='https://github.com/AliOthman0934/APIs-Project'target='blank'>More information on GitHub</a>
                                     <img src={arrow} alt="" />
                                 </div>
                             </a>
                         </div>
                         <div className="project-page-item">
                             <div className="project-page-item-number">
-                                <p>06/06</p>
-                            </div>
-                            <a href="/">
-                                <div className="project-page-item-header">
-                                    <h1>Lorem, ipsum.</h1>
-                                    <p>Lorem, ipsum.</p>
-                                </div>
-                                <div className="project-page-item-image project-page-item-image6"></div>
-                                <div className="project-page-item-footer">
-                                    <p>Lorem ipsum dolor sit amet.</p>
-                                    <img src={arrow} alt="" />
-                                </div>
-                            </a>
-                        </div>
-                        <div className="project-page-item">
-                            <div className="project-page-item-number">
-                                <p>06/06</p>
+                                <p>2023</p>
                             </div>
                             <a href="/">
                                 <div className="project-page-item-header">
-                                    <h1>Lorem, ipsum.</h1>
-                                    <p>Lorem, ipsum.</p>
+                                    <h1>Shoes Website</h1>
                                 </div>
-                                <div className="project-page-item-image project-page-item-image7"></div>
+                                <div className="project-page-item-image project-page-item-image6">
+                                    <img src={img6} alt='' className='project-img'></img>
+                                </div>
                                 <div className="project-page-item-footer">
-                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <a href='https://github.com/AliOthman0934/Shoes-website'target='blank'>More information on GitHub</a>
                                     <img src={arrow} alt="" />
                                 </div>
                             </a>
                         </div>
                         <div className="project-page-item">
                             <div className="project-page-item-number">
-                                <p>06/06</p>
+                                <p>2023</p>
                             </div>
-                            <a href="/">
+                            <a href="https://curious-blancmange-710ac0.netlify.app/" target='blank'>
                                 <div className="project-page-item-header">
-                                    <h1>Lorem, ipsum.</h1>
-                                    <p>Lorem, ipsum.</p>
+                                    <h1>HYF Quiz</h1>
                                 </div>
-                                <div className="project-page-item-image project-page-item-image8"></div>
+                                <div className="project-page-item-image project-page-item-image7">
+                                    <img src={img7} className='project-img' alt='' ></img>
+                                </div>
                                 <div className="project-page-item-footer">
-                                    <p>Lorem ipsum dolor sit amet.</p>
-                                    <img src={arrow} alt="" />
-                                </div>
-                            </a>
-                        </div>
-                        <div className="project-page-item">
-                            <div className="project-page-item-number">
-                                <p>06/06</p>
-                            </div>
-                            <a href="/">
-                                <div className="project-page-item-header">
-                                    <h1>Lorem, ipsum.</h1>
-                                    <p>Lorem, ipsum.</p>
-                                </div>
-                                <div className="project-page-item-image project-page-item-image9"></div>
-                                <div className="project-page-item-footer">
-                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <a href='https://github.com/AliOthman0934/Quiz-Application' target='blank'>More information on GitHub</a>
                                     <img src={arrow} alt="" />
                                 </div>
                             </a>
