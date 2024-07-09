@@ -101,7 +101,7 @@ function Projects() {
                             <div className="project-page-item-number">
                                 <p>2023</p>
                             </div>
-                            <a href="https://tiny-swan-81124f.netlify.app/" target='blank'>
+                            <a href="https://green-club-topaz.vercel.app/" target='blank'>
                                 <div className="project-page-item-header">
                                     <h1>Green Social Clup</h1>
                                 </div>

@@ -73,7 +73,7 @@ header{
     .menu-items{
         display: none;
         top: 80px;
-        right: 20px;
+        right: 75px;
         padding: 10px 0px;
     }
     .menu-items li, .li{
