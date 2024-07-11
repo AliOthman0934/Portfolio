@@ -84,7 +84,7 @@ function Projects() {
                             <div className="project-page-item-number">
                                 <p>2024</p>
                             </div>
-                            <a href="/">
+                            <a href="https://bookhub-alpha.vercel.app/book" target='blank'>
                                 <div className="project-page-item-header">
                                     <h1>BookHub</h1>
                                 </div>
