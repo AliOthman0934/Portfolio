@@ -50,7 +50,7 @@ function Projects() {
                             <div className="project-page-item-number">
                                 <p>2024</p>
                             </div>
-                            <a href="/">
+                            <a href="/" target='blank'>
                                 <div className="project-page-item-header">
                                     <h1>Personal portfolio</h1>
                                 </div>
