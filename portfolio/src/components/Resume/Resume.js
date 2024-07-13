@@ -24,7 +24,7 @@ const Resume = () => {
                         start: "top 80%",
                         end: "bottom 60%",
                         toggleActions: "play none none reverse",
-                        markers: false, // set to true if you want to see markers
+                        markers: false,
                     },
                 }
             );
@@ -146,7 +146,11 @@ const Resume = () => {
                     </p>
                 </section>
             </div>
+            <div className="download-cv">
+                <a href="https://app.enhancv.com/share/98211fc4/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic" >Download CV</a>
+            </div>
         </div>
+
     );
 };
 

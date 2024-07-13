@@ -126,6 +126,17 @@ justify-content: flex-start;
 .timeline-row section .bottom a:hover{
     transform: scale(0.97);
 }
+
+.download-cv{
+	position: relative;
+	top: 100px;
+	left: 455px;
+}
+
+.download-cv a{
+	text-decoration: none;
+	color: #fff;
+}
 @media (max-width:790px) {
     .timeline-wrapper .center-line
     {
