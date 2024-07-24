@@ -7,7 +7,7 @@ import Footer from '../Footer/Footer'
 import gsap from 'gsap'
 import img1 from "../../Assets/pro1.png"
 import img2 from "../../Assets/ScreenShot_23_06_2024_17_01_56.png"
-import img3 from "../../Assets/ScreenShot_23_06_2024_16_44_28.jpg"
+import img3 from "../../Assets/Gif_13_07_2024_20_27_02.gif"
 import img4 from "../../Assets/ScreenShot_23_06_2024_17_07_37.jpg"
 import img5 from "../../Assets/img ge.jpg"
 import img6 from "../../Assets/shoes page.png"
